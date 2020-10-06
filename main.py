@@ -19,3 +19,5 @@ print(n, f'\n{m}')
 name1 = int(input('Введите число '))
 name2 = int(input('Введите число '))
 print(name1 + name2)
+m += 1
+print(m)
