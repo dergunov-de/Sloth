@@ -1,23 +1,51 @@
-print('Это мои первые строчки кода')
-print(1+2)
-print(2 + 4 / 6 * 10)  # Деление
-print(9 // 4)  # Деление без остатка
-name = 10
-print(name)
-i = 'Это мои вторые строчки кода'
-n = '20'
-m = 30
-print(int(n) + m)
-print(n + str(m))
-print(1)
-print('1')
-print(f'{n}{m}')
-j = f'{m}"-это переменная"'
-print(j)
-print(n, m)
-print(n, f'\n{m}')
-name1 = int(input('Введите число '))
-name2 = int(input('Введите число '))
-print(name1 + name2)
-m += 1
-print(m)
+'''
+Занятие 2
+
+i = 10
+name = 'Home'
+print(type(name))
+
+print(2 + 1 / 4 * 5)
+f1 = int(input('Введите число'))
+f2 = int(input('Введите число'))
+
+print(f1 + f2)
+'''
+name1 = 10
+name2 = 20
+
+# Условные операторы
+if name1 == name2:
+    print('name1 == name2')
+if name1 > name2:
+    print('name1 > name2')
+    if name2 is True:
+        print("True")
+if name1 >= name2:
+    pass
+elif name1 < name2:
+    print('name1 < name2')
+elif name1 != name2:
+    pass
+else:
+    print('name1 = name2')
+
+# Список [], Кортедж ()
+n = [1, 2, 3, 'sorry']
+print(n[0])
+print(len(n))
+n.append(7)
+print(n)
+# Циклы
+for i in 'sorry':
+    print(i)
+# for i in n:
+for i in 1, 2, 3, 'sorry':
+    print(i)
+
+m = 0
+while True
+while m < 10:
+    print(m)
+    m += 1
+
