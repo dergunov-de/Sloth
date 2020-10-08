@@ -44,8 +44,7 @@ for i in 1, 2, 3, 'sorry':
     print(i)
 
 m = 0
-while True
+# while True
 while m < 10:
     print(m)
     m += 1
-
